@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Weather</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div id="justify">
+            <div id="rectbox">
+                <h1 id="heading">Weather</h1>
+                <input id="inpbox" type="text" name="city" placeholder="City">
+                <button id="btn" onclick="callWeather()"><i style="font-size:24px" class="fa">&#xf002;</i></button>
+                <p>Weather in <span id="city"></span></p>
+                <p>Temperature: <span id="temp"></span><sup>o</sup>C</p>
+                <p>Humidity: <span id="humid"></span>%</p>
+                <p>Wind: <span id="wind"></span>kmph</p>
+            </div>
+        </div>
+        <script src="script.js" async defer></script>
+    </body>
+</html>
